@@ -1,19 +1,7 @@
-# instant-cash
+# Instant Cash
 
-## Project setup
-```
-npm install
-```
+Instant Cash es una aplicación hecha para convertir pesos chilenos en otras divisas: Dólar, Euro y Bitcoin por ahora.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Para ver resultado, click aquí: 
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Instant Cash](https://andresbarrosodev.github.io/Instant-Cash/)
