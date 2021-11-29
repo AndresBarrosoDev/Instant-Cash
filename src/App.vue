@@ -4,7 +4,7 @@
     <div v-if="!showLogIn">
       <LogIn/>
     </div>
-    <!-- Aqui se renderiza el sitio -->
+    <!-- Aquí se renderiza el sitio -->
     <div v-else>
       <NavBar/>
       <transition name="scale-in" mode="out-in">

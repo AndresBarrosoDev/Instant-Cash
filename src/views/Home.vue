@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col>
-          <TitleCard title="Bienvenido a Instant Cash" content="En Instant Cash podras visualizar en tiempo real el valor del Dolar, Euro y Bitcoin. Información obtenida a través de la siguiente API: https://mindicador.cl/api"/>
+          <TitleCard title="Bienvenido a Instant Cash" content="En Instant Cash podrás visualizar en tiempo real el valor del Dólar, Euro y Bitcoin. Información obtenida a través de la siguiente API: https://mindicador.cl/api"/>
         </b-col>
       </b-row>
       <b-row class="d-flex justify-content-around pt-4">
@@ -13,7 +13,7 @@
         lg="6"
         xl="4"
         class="mb-3">
-          <CurrencyCard :title="'Valor ' + dolarObject.nombre + ':'" subTitle="" :currencyValue="dolarObject.valor"/>
+          <CurrencyCard :title="'Valor ' + dolarObject.nombre + ':'" subTitle="" :currencyValue="dolarObject.valor + ' CLP'"/>
         </b-col>
         <b-col 
         sm="12" 
@@ -21,7 +21,7 @@
         lg="6"
         xl="4"
         class="mb-3">
-          <CurrencyCard :title="'Valor ' + euroObject.nombre + ':'" subTitle="" :currencyValue="euroObject.valor"/>
+          <CurrencyCard :title="'Valor ' + euroObject.nombre + ':'" subTitle="" :currencyValue="euroObject.valor + ' CLP'"/>
         </b-col>
         <b-col 
         sm="12" 
@@ -29,7 +29,7 @@
         lg="6"
         xl="4"
         class="mb-3">
-          <CurrencyCard :title="'Valor ' + bitcoinObject.nombre + ':'" subTitle="" :currencyValue="bitcoinObject.valor"/>
+          <CurrencyCard :title="'Valor ' + bitcoinObject.nombre + ':'" subTitle="" :currencyValue="bitcoinObject.valor + ' USD'"/>
         </b-col>
       </b-row>
     </b-container>

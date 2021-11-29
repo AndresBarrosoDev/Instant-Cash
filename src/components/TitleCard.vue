@@ -3,6 +3,7 @@
         <b-card class="title-card">
             <b-card-title>{{title}}</b-card-title>
             <b-card-text>{{content}}</b-card-text>
+            <img class="title-image" src="~@/assets/coinbanner.jpg" alt="">
         </b-card>
     </div>
 </template>
@@ -23,5 +24,11 @@ export default {
     }
     .title-container {
         border-bottom: 3px solid #212529;
+    }
+    .title-image {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
     }
 </style>

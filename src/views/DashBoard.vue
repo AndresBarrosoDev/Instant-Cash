@@ -3,7 +3,7 @@
         <b-container>
             <b-row class="blue-line">
                 <b-col>
-                    <TitleCard title="Dash Board" content="Aqui puedes revisar algunas estadisticas calculadas con funciones de JavaScript"/>
+                    <TitleCard title="Dash Board" content="Aquí puedes revisar algunas estadísticas calculadas con funciones de JavaScript"/>
                 </b-col>
             </b-row>
             <b-row>

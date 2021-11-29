@@ -297,7 +297,7 @@ export default new Vuex.Store({
         state.dolarObject = mindicador.data.dolar;
         state.euroObject = mindicador.data.euro;
         state.bitcoinObject = mindicador.data.bitcoin;
-          // console.log(mindicador);
+          console.log(mindicador);
       })
       .catch()
     },
