@@ -3,7 +3,7 @@
         <b-card class="title-card">
             <b-card-title>{{title}}</b-card-title>
             <b-card-text>{{content}}</b-card-text>
-            <img class="title-image" src="~@/assets/coinbanner.jpg" alt="">
+            <img class="title-image" src="~@/assets/coinbanner2.2.jpg" alt="">
         </b-card>
     </div>
 </template>

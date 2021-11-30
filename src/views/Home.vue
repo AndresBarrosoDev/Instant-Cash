@@ -31,6 +31,9 @@
         class="mb-3">
           <CurrencyCard :title="'Valor ' + bitcoinObject.nombre + ':'" subTitle="" :currencyValue="bitcoinObject.valor + ' USD'"/>
         </b-col>
+        <b-col>
+          <p class="text-white">Andrés Barroso Dev ®</p>
+        </b-col>
       </b-row>
     </b-container>
   </div>

@@ -56,6 +56,9 @@
                     <DashCard class="dashcard" title="Menor Compra" subTitle="" :content="lowestPurchase + ' CLP'"/>
                 </b-col>
             </b-row>
+        <b-col>
+          <p class="text-white mt-4">Andrés Barroso Dev ®</p>
+        </b-col>
         </b-container>
     </div>
 </template>
